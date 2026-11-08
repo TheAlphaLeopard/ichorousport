@@ -1,0 +1,373 @@
+[
+  {
+    "id": 0,
+    "name": "",
+    "type": null,
+    "version": 0,
+    "source_files": {}
+  },
+  {
+    "id": 1,
+    "name": "__shd_outline",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_outline.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_outline.fragment.glsl.es",
+      "glsl_vertex": "__shd_outline.vertex.glsl",
+      "glsl_fragment": "__shd_outline.fragment.glsl",
+      "hlsl9_vertex": "__shd_outline.vertex.hlsl",
+      "hlsl9_fragment": "__shd_outline.fragment.hlsl"
+    }
+  },
+  {
+    "id": 2,
+    "name": "__shd_scribble_bake_effect_4dir",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_effect_4dir.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_effect_4dir.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_effect_4dir.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_effect_4dir.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_effect_4dir.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_effect_4dir.fragment.hlsl"
+    }
+  },
+  {
+    "id": 3,
+    "name": "__shd_scribble_bake_effect_8dir_2px",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_effect_8dir_2px.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_effect_8dir_2px.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_effect_8dir_2px.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_effect_8dir_2px.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_effect_8dir_2px.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_effect_8dir_2px.fragment.hlsl"
+    }
+  },
+  {
+    "id": 4,
+    "name": "__shd_scribble_bake_effect_8dir",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_effect_8dir.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_effect_8dir.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_effect_8dir.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_effect_8dir.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_effect_8dir.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_effect_8dir.fragment.hlsl"
+    }
+  },
+  {
+    "id": 5,
+    "name": "__shd_scribble_bake_effect_no_outline",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_effect_no_outline.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_effect_no_outline.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_effect_no_outline.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_effect_no_outline.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_effect_no_outline.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_effect_no_outline.fragment.hlsl"
+    }
+  },
+  {
+    "id": 6,
+    "name": "__shd_scribble_bake_outline_4dir",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_outline_4dir.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_outline_4dir.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_outline_4dir.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_outline_4dir.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_outline_4dir.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_outline_4dir.fragment.hlsl"
+    }
+  },
+  {
+    "id": 7,
+    "name": "__shd_scribble_bake_outline_8dir_2px",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_outline_8dir_2px.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_outline_8dir_2px.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_outline_8dir_2px.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_outline_8dir_2px.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_outline_8dir_2px.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_outline_8dir_2px.fragment.hlsl"
+    }
+  },
+  {
+    "id": 8,
+    "name": "__shd_scribble_bake_outline_8dir",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_outline_8dir.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_outline_8dir.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_outline_8dir.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_outline_8dir.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_outline_8dir.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_outline_8dir.fragment.hlsl"
+    }
+  },
+  {
+    "id": 9,
+    "name": "__shd_scribble_bake_shadow",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble_bake_shadow.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble_bake_shadow.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble_bake_shadow.vertex.glsl",
+      "glsl_fragment": "__shd_scribble_bake_shadow.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble_bake_shadow.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble_bake_shadow.fragment.hlsl"
+    }
+  },
+  {
+    "id": 10,
+    "name": "__shd_scribble",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "__shd_scribble.vertex.glsl.es",
+      "glsl_es_fragment": "__shd_scribble.fragment.glsl.es",
+      "glsl_vertex": "__shd_scribble.vertex.glsl",
+      "glsl_fragment": "__shd_scribble.fragment.glsl",
+      "hlsl9_vertex": "__shd_scribble.vertex.hlsl",
+      "hlsl9_fragment": "__shd_scribble.fragment.hlsl"
+    }
+  },
+  {
+    "id": 11,
+    "name": "shd_lighting_fade",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_lighting_fade.vertex.glsl.es",
+      "glsl_es_fragment": "shd_lighting_fade.fragment.glsl.es",
+      "glsl_vertex": "shd_lighting_fade.vertex.glsl",
+      "glsl_fragment": "shd_lighting_fade.fragment.glsl",
+      "hlsl9_vertex": "shd_lighting_fade.vertex.hlsl",
+      "hlsl9_fragment": "shd_lighting_fade.fragment.hlsl"
+    }
+  },
+  {
+    "id": 12,
+    "name": "shd_lighting_highlight",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_lighting_highlight.vertex.glsl.es",
+      "glsl_es_fragment": "shd_lighting_highlight.fragment.glsl.es",
+      "glsl_vertex": "shd_lighting_highlight.vertex.glsl",
+      "glsl_fragment": "shd_lighting_highlight.fragment.glsl",
+      "hlsl9_vertex": "shd_lighting_highlight.vertex.hlsl",
+      "hlsl9_fragment": "shd_lighting_highlight.fragment.hlsl"
+    }
+  },
+  {
+    "id": 13,
+    "name": "shd_lighting_process_levels",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_lighting_process_levels.vertex.glsl.es",
+      "glsl_es_fragment": "shd_lighting_process_levels.fragment.glsl.es",
+      "glsl_vertex": "shd_lighting_process_levels.vertex.glsl",
+      "glsl_fragment": "shd_lighting_process_levels.fragment.glsl",
+      "hlsl9_vertex": "shd_lighting_process_levels.vertex.hlsl",
+      "hlsl9_fragment": "shd_lighting_process_levels.fragment.hlsl"
+    }
+  },
+  {
+    "id": 14,
+    "name": "shd_lighting_sprites_process_outlines",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_lighting_sprites_process_outlines.vertex.glsl.es",
+      "glsl_es_fragment": "shd_lighting_sprites_process_outlines.fragment.glsl.es",
+      "glsl_vertex": "shd_lighting_sprites_process_outlines.vertex.glsl",
+      "glsl_fragment": "shd_lighting_sprites_process_outlines.fragment.glsl",
+      "hlsl9_vertex": "shd_lighting_sprites_process_outlines.vertex.hlsl",
+      "hlsl9_fragment": "shd_lighting_sprites_process_outlines.fragment.hlsl"
+    }
+  },
+  {
+    "id": 15,
+    "name": "shd_pal_html_sprite",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_pal_html_sprite.vertex.glsl.es",
+      "glsl_es_fragment": "shd_pal_html_sprite.fragment.glsl.es",
+      "glsl_vertex": "shd_pal_html_sprite.vertex.glsl",
+      "glsl_fragment": "shd_pal_html_sprite.fragment.glsl",
+      "hlsl9_vertex": "shd_pal_html_sprite.vertex.hlsl",
+      "hlsl9_fragment": "shd_pal_html_sprite.fragment.hlsl"
+    }
+  },
+  {
+    "id": 16,
+    "name": "shd_pal_html_surface",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_pal_html_surface.vertex.glsl.es",
+      "glsl_es_fragment": "shd_pal_html_surface.fragment.glsl.es",
+      "glsl_vertex": "shd_pal_html_surface.vertex.glsl",
+      "glsl_fragment": "shd_pal_html_surface.fragment.glsl",
+      "hlsl9_vertex": "shd_pal_html_surface.vertex.hlsl",
+      "hlsl9_fragment": "shd_pal_html_surface.fragment.hlsl"
+    }
+  },
+  {
+    "id": 17,
+    "name": "shd_pal_swapper",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_pal_swapper.vertex.glsl.es",
+      "glsl_es_fragment": "shd_pal_swapper.fragment.glsl.es",
+      "glsl_vertex": "shd_pal_swapper.vertex.glsl",
+      "glsl_fragment": "shd_pal_swapper.fragment.glsl",
+      "hlsl9_vertex": "shd_pal_swapper.vertex.hlsl",
+      "hlsl9_fragment": "shd_pal_swapper.fragment.hlsl"
+    }
+  },
+  {
+    "id": 18,
+    "name": "shd_perlin_noise_glsl_es",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_perlin_noise_glsl_es.vertex.glsl.es",
+      "glsl_es_fragment": "shd_perlin_noise_glsl_es.fragment.glsl.es",
+      "glsl_vertex": "shd_perlin_noise_glsl_es.vertex.glsl",
+      "glsl_fragment": "shd_perlin_noise_glsl_es.fragment.glsl",
+      "hlsl9_vertex": "shd_perlin_noise_glsl_es.vertex.hlsl",
+      "hlsl9_fragment": "shd_perlin_noise_glsl_es.fragment.hlsl"
+    }
+  },
+  {
+    "id": 19,
+    "name": "shd_wall_blood",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shd_wall_blood.vertex.glsl.es",
+      "glsl_es_fragment": "shd_wall_blood.fragment.glsl.es",
+      "glsl_vertex": "shd_wall_blood.vertex.glsl",
+      "glsl_fragment": "shd_wall_blood.fragment.glsl",
+      "hlsl9_vertex": "shd_wall_blood.vertex.hlsl",
+      "hlsl9_fragment": "shd_wall_blood.fragment.hlsl"
+    }
+  },
+  {
+    "id": 20,
+    "name": "shdImGui",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shdImGui.vertex.glsl.es",
+      "glsl_es_fragment": "shdImGui.fragment.glsl.es",
+      "glsl_vertex": "shdImGui.vertex.glsl",
+      "glsl_fragment": "shdImGui.fragment.glsl",
+      "hlsl9_vertex": "shdImGui.vertex.hlsl",
+      "hlsl9_fragment": "shdImGui.fragment.hlsl"
+    }
+  },
+  {
+    "id": 21,
+    "name": "shFog",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shFog.vertex.glsl.es",
+      "glsl_es_fragment": "shFog.fragment.glsl.es",
+      "glsl_vertex": "shFog.vertex.glsl",
+      "glsl_fragment": "shFog.fragment.glsl",
+      "hlsl9_vertex": "shFog.vertex.hlsl",
+      "hlsl9_fragment": "shFog.fragment.hlsl"
+    }
+  },
+  {
+    "id": 22,
+    "name": "shOcean",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shOcean.vertex.glsl.es",
+      "glsl_es_fragment": "shOcean.fragment.glsl.es",
+      "glsl_vertex": "shOcean.vertex.glsl",
+      "glsl_fragment": "shOcean.fragment.glsl",
+      "hlsl9_vertex": "shOcean.vertex.hlsl",
+      "hlsl9_fragment": "shOcean.fragment.hlsl"
+    }
+  },
+  {
+    "id": 23,
+    "name": "shPerlinBloodBG",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shPerlinBloodBG.vertex.glsl.es",
+      "glsl_es_fragment": "shPerlinBloodBG.fragment.glsl.es",
+      "glsl_vertex": "shPerlinBloodBG.vertex.glsl",
+      "glsl_fragment": "shPerlinBloodBG.fragment.glsl",
+      "hlsl9_vertex": "shPerlinBloodBG.vertex.hlsl",
+      "hlsl9_fragment": "shPerlinBloodBG.fragment.hlsl"
+    }
+  },
+  {
+    "id": 24,
+    "name": "shSplash",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shSplash.vertex.glsl.es",
+      "glsl_es_fragment": "shSplash.fragment.glsl.es",
+      "glsl_vertex": "shSplash.vertex.glsl",
+      "glsl_fragment": "shSplash.fragment.glsl",
+      "hlsl9_vertex": "shSplash.vertex.hlsl",
+      "hlsl9_fragment": "shSplash.fragment.hlsl"
+    }
+  },
+  {
+    "id": 25,
+    "name": "shWallCrumble",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shWallCrumble.vertex.glsl.es",
+      "glsl_es_fragment": "shWallCrumble.fragment.glsl.es",
+      "glsl_vertex": "shWallCrumble.vertex.glsl",
+      "glsl_fragment": "shWallCrumble.fragment.glsl",
+      "hlsl9_vertex": "shWallCrumble.vertex.hlsl",
+      "hlsl9_fragment": "shWallCrumble.fragment.hlsl"
+    }
+  },
+  {
+    "id": 26,
+    "name": "shWallDistort",
+    "type": "GLSL_ES",
+    "version": 2,
+    "source_files": {
+      "glsl_es_vertex": "shWallDistort.vertex.glsl.es",
+      "glsl_es_fragment": "shWallDistort.fragment.glsl.es",
+      "glsl_vertex": "shWallDistort.vertex.glsl",
+      "glsl_fragment": "shWallDistort.fragment.glsl",
+      "hlsl9_vertex": "shWallDistort.vertex.hlsl",
+      "hlsl9_fragment": "shWallDistort.fragment.hlsl"
+    }
+  }
+]

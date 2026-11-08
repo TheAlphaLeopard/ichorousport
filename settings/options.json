@@ -1,0 +1,29 @@
+{
+  "info_flags": "ShowCursor, VariableErrors, LegacyJsonParsing, LegacyNumberConversion, LegacyOtherBehavior, AudioErrorBehavior, AllowInstanceChange, LegacyPrimitiveDrawing",
+  "constants": [
+    {
+      "name": "@@SleepMargin",
+      "value": "10"
+    },
+    {
+      "name": "@@DrawColour",
+      "value": "4294967295"
+    },
+    {
+      "name": "@@VersionMajor",
+      "value": "1"
+    },
+    {
+      "name": "@@VersionMinor",
+      "value": "0"
+    },
+    {
+      "name": "@@VersionBuild",
+      "value": "0"
+    },
+    {
+      "name": "@@VersionRevision",
+      "value": "0"
+    }
+  ]
+}

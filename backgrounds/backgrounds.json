@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "name": "tFakeGrub",
+    "transparent": false,
+    "smooth": false,
+    "texture_item": "PageItem 51",
+    "texture_page": "Texture 1",
+    "x": 888,
+    "y": 997,
+    "width": 100,
+    "height": 120,
+    "tileset": {
+      "tile_width": 16,
+      "tile_height": 16,
+      "columns": 5,
+      "output_border_x": 2,
+      "output_border_y": 2,
+      "items_per_tile_count": 1,
+      "tile_count": 30
+    },
+    "exported_file": "000_tFakeGrub.png"
+  },
+  {
+    "id": 1,
+    "name": "tGravePit",
+    "transparent": false,
+    "smooth": false,
+    "texture_item": "PageItem 6",
+    "texture_page": "Texture 1",
+    "x": 4,
+    "y": 1386,
+    "width": 260,
+    "height": 260,
+    "tileset": {
+      "tile_width": 16,
+      "tile_height": 16,
+      "columns": 13,
+      "output_border_x": 2,
+      "output_border_y": 2,
+      "items_per_tile_count": 1,
+      "tile_count": 169
+    },
+    "exported_file": "001_tGravePit.png"
+  },
+  {
+    "id": 2,
+    "name": "tlWallTiles",
+    "transparent": false,
+    "smooth": false,
+    "texture_item": "PageItem 52",
+    "texture_page": "Texture 1",
+    "x": 996,
+    "y": 997,
+    "width": 100,
+    "height": 120,
+    "tileset": {
+      "tile_width": 16,
+      "tile_height": 16,
+      "columns": 5,
+      "output_border_x": 2,
+      "output_border_y": 2,
+      "items_per_tile_count": 1,
+      "tile_count": 30
+    },
+    "exported_file": "002_tlWallTiles.png"
+  },
+  {
+    "id": 3,
+    "name": "tSewers",
+    "transparent": false,
+    "smooth": false,
+    "texture_item": "PageItem 2",
+    "texture_page": "Texture 1",
+    "x": 4,
+    "y": 278,
+    "width": 300,
+    "height": 320,
+    "tileset": {
+      "tile_width": 16,
+      "tile_height": 16,
+      "columns": 15,
+      "output_border_x": 2,
+      "output_border_y": 2,
+      "items_per_tile_count": 1,
+      "tile_count": 234
+    },
+    "exported_file": "003_tSewers.png"
+  }
+]

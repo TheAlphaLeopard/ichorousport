@@ -1,0 +1,176 @@
+{
+    "dialogue.raven.intro": [
+            {"speaker": "raven"},
+            {},
+            {},
+            {},
+            {},
+            {}
+
+    ],
+
+    "dialogue.raven.chatter1": [
+        {"speaker": "raven"}
+
+    ],
+
+    "dialogue.raven.chatter2": [
+        {"speaker": "raven"}
+
+    ],
+
+    "dialogue.raven.chatter_empty": [
+        {"speaker": "raven"}
+
+    ],
+
+    "dialogue.tutorial.getup": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.go": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.start": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.go": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.salesman.purchase": [
+        {"speaker": "salesman"}
+    ],
+
+    "dialogue.salesman.first_sidearm": [
+        {"speaker": "salesman"},
+        {},
+        {},
+        {}
+    ],
+
+    "dialogue.alter.intro": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.patron.welcome": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.explain": [
+        {"speaker": "patron"}
+
+    ],
+	
+    "dialogue.patron.juicing": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.return.gravepit": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.return.squalor": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.chatter_empty": [
+        {"speaker": "patron"}
+
+    ],	
+	
+    "dialogue.patron.gravepit1": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.gravepit2": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.gravepit3": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.squalor1": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.squalor2": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.squalor3": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.patron.chatter_empty": [
+        {"speaker": "patron"}
+
+    ],
+
+    "dialogue.tutorial.heavy": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.end": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.dash": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.heavy.intro": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.heavy.stun": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.blood": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.tutorial.post_heal": [
+        {"speaker": "empty"}
+
+    ],
+
+    "dialogue.salesman.roomEnter": [
+        {"speaker": "salesman"}
+
+    ],
+
+    "dialogue.salesman.firstEnter": [
+        {"speaker": "salesman"},
+        {},
+        {},
+        {}
+
+    ]
+
+}

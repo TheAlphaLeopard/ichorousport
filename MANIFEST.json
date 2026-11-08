@@ -1,0 +1,205 @@
+{
+  "game": "Ichorous",
+  "project_name": "Ichorous",
+  "game_id": 0,
+  "steam_app_id": 0,
+  "gamemaker_version": {
+    "major": 2024,
+    "minor": 14,
+    "release": 1,
+    "build": 0,
+    "branch": "Post2022_0",
+    "bytecode_version": 17,
+    "configuration": "Release"
+  },
+  "build_type": "YYC (native code in Ichorous.exe; no VM bytecode in data.win)",
+  "decompilable_code": false,
+  "default_window": {
+    "width": 320,
+    "height": 180,
+    "fps": 60
+  },
+  "counts": {
+    "sounds": 500,
+    "sprites": 1059,
+    "backgrounds": 4,
+    "scripts": 5313,
+    "shaders": 27,
+    "fonts": 7,
+    "game_objects": 339,
+    "rooms": 75,
+    "strings": 11117,
+    "embedded_textures": 4,
+    "texture_page_items": 4499,
+    "embedded_audio": 475,
+    "audio_groups": 3,
+    "code_entries": null,
+    "variables": null,
+    "functions": null
+  },
+  "data_win_chunks": [
+    {
+      "chunk": "GEN8",
+      "size_bytes": 496
+    },
+    {
+      "chunk": "OPTN",
+      "size_bytes": 120
+    },
+    {
+      "chunk": "LANG",
+      "size_bytes": 24
+    },
+    {
+      "chunk": "EXTN",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "SOND",
+      "size_bytes": 22008
+    },
+    {
+      "chunk": "AGRP",
+      "size_bytes": 40
+    },
+    {
+      "chunk": "SPRT",
+      "size_bytes": 248568
+    },
+    {
+      "chunk": "BGND",
+      "size_bytes": 2168
+    },
+    {
+      "chunk": "PATH",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "SCPT",
+      "size_bytes": 63768
+    },
+    {
+      "chunk": "GLOB",
+      "size_bytes": 2280
+    },
+    {
+      "chunk": "SHDR",
+      "size_bytes": 209720
+    },
+    {
+      "chunk": "FONT",
+      "size_bytes": 16360
+    },
+    {
+      "chunk": "TMLN",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "OBJT",
+      "size_bytes": 142312
+    },
+    {
+      "chunk": "FEDS",
+      "size_bytes": 24
+    },
+    {
+      "chunk": "ACRV",
+      "size_bytes": 1064
+    },
+    {
+      "chunk": "SEQN",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "TAGS",
+      "size_bytes": 3096
+    },
+    {
+      "chunk": "ROOM",
+      "size_bytes": 428616
+    },
+    {
+      "chunk": "UILR",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "DAFL",
+      "size_bytes": 8
+    },
+    {
+      "chunk": "EMBI",
+      "size_bytes": 136
+    },
+    {
+      "chunk": "PSEM",
+      "size_bytes": 248
+    },
+    {
+      "chunk": "PSYS",
+      "size_bytes": 40
+    },
+    {
+      "chunk": "TPAG",
+      "size_bytes": 116984
+    },
+    {
+      "chunk": "TGIN",
+      "size_bytes": 4472
+    },
+    {
+      "chunk": "FEAT",
+      "size_bytes": 120
+    },
+    {
+      "chunk": "STRG",
+      "size_bytes": 751000
+    },
+    {
+      "chunk": "TXTR",
+      "size_bytes": 728696
+    },
+    {
+      "chunk": "AUDO",
+      "size_bytes": 7519242
+    }
+  ],
+  "audio_group_files": [
+    {
+      "id": 0,
+      "name": "audiogroup_default",
+      "external_path": "audiogroup_default.dat"
+    },
+    {
+      "id": 1,
+      "name": "audiogroup_music",
+      "external_path": "audiogroup_music.dat"
+    },
+    {
+      "id": 2,
+      "name": "audiogroup_ambiance",
+      "external_path": "audiogroup_ambiance.dat"
+    }
+  ],
+  "raw_file_hashes": {
+    "data.win": "96bafedc68b074eb5659d761c0e6de16ede5f566831dd195bb770dd1ba8521cb",
+    "Ichorous.exe": "34b70b1c7522dc5fc69b1b170349394539313a70a2a32b9a63a093412bc431fd",
+    "audiogroup_music.dat": "1c1385db63bbee089b807101360a6f3eea3d86530ec89eae23ea7c2645aaf356",
+    "audiogroup_ambiance.dat": "28a020a1934518840b94efedaab95af1ab8e636881d1d33cbc31b066e6aaf71b",
+    "options.ini": "07862956b0e2736c073f449f0221848a667f852a364e53f3307c9b97a51b960f",
+    "gamecontrollerdb.txt": "753cbab2af16056bcfdebbeb2e55999ee83680e9802c3d1b0df12e45b4c807d2",
+    "en.json": "b3d8ef58b5548c33c3964ee1dd27ece95924b2514035b8bbca10faf0a69ca17f",
+    "dialogue_config.json": "fd9eb2130e68bb12dbf7ede0bfb2b7d7ab9460ca45c29685b0af3f917cf93d3d"
+  },
+  "extraction_tool": {
+    "name": "IchorousDumper (custom headless exporter)",
+    "parser": "UndertaleModLib 0.9.2 (UnderminersTeam/UndertaleModTool, GPLv3)",
+    "decompiler": "Underanalyzer (UnderminersTeam/Underanalyzer, MPL-2.0) - unused here: game is YYC, no GML bytecode to decompile",
+    "generated_utc": "2026-11-07T02:05:09.8635463Z"
+  },
+  "notes": [
+    "This build has NO 'CODE', 'VARI' or 'FUNC' chunks: GML logic was compiled to native x64 machine code inside Ichorous.exe (YYC).",
+    "What remains moddable via data.win: sprites, sounds, textures, fonts, rooms, object/room structure, strings, shaders, audio groups.",
+    "Script names (SCPT chunk) survive and are exported to scripts/scripts.json - they are the main 'API surface' reference.",
+    "Raw files are in raw/ for patching experiments; all coordinates for texture atlas items are in texture_pages.json."
+  ]
+}

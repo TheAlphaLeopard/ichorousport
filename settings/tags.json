@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "@@constructor",
+    "@@parent=Attribute",
+    "chunk",
+    "left",
+    "up",
+    "right",
+    "default",
+    "down",
+    "universal",
+    "alter",
+    "levelBoss",
+    "sideArmRoom",
+    "spawn",
+    "rewardRoom",
+    "miniBoss",
+    "platformingRoom",
+    "shopRoom"
+  ]
+}

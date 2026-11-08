@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "audiogroup_default",
+    "external_file": "audiogroup_default.dat"
+  },
+  {
+    "id": 1,
+    "name": "audiogroup_music",
+    "external_file": "audiogroup_music.dat"
+  },
+  {
+    "id": 2,
+    "name": "audiogroup_ambiance",
+    "external_file": "audiogroup_ambiance.dat"
+  }
+]
