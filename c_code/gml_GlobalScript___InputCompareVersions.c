@@ -1,0 +1,118 @@
+// gml_GlobalScript___InputCompareVersions @ 0x14006bab0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+gml_GlobalScript___InputCompareVersions(undefined8 param_1,undefined8 param_2,undefined8 *param_3)
+
+{
+  undefined4 local_a8;
+  undefined4 uStack_a4;
+  undefined4 uStack_a0;
+  undefined4 uStack_9c;
+  undefined8 local_98;
+  undefined4 local_90;
+  undefined4 local_8c;
+  undefined4 local_88;
+  undefined4 uStack_84;
+  undefined4 uStack_80;
+  undefined4 uStack_7c;
+  undefined1 local_78 [12];
+  byte local_6c;
+  undefined1 local_68 [12];
+  byte local_5c;
+  undefined1 local_58 [12];
+  byte local_4c;
+  undefined8 local_48;
+  char *local_40;
+  undefined4 local_38;
+  undefined1 *local_30;
+  undefined1 *local_28;
+  undefined1 *local_20;
+  
+  local_40 = "gml_Script_anon@464@__InputColorSystem@__InputColorSystem";
+  local_48 = DAT_141dc7a50;
+  DAT_141dc7a50 = &local_48;
+  local_38 = 0x11;
+  _eh_vector_constructor_iterator_(local_78,0x10,3,FUN_1400424d0,FUN_140041b30);
+  local_8c = 0;
+  local_98 = 0;
+  *(undefined4 *)((longlong)param_3 + 0xc) = 5;
+  *param_3 = 0;
+  local_38 = 0x13;
+  local_a8 = _DAT_1419df920;
+  uStack_a4 = uRam00000001419df924;
+  uStack_a0 = uRam00000001419df928;
+  uStack_9c = uRam00000001419df92c;
+  if ((1 << (local_6c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_78);
+  }
+  FUN_140041b80(local_78,&local_a8);
+  local_30 = local_78;
+  local_a8 = (undefined4)DAT_1419df7b0;
+  uStack_a4 = DAT_1419df7b0._4_4_;
+  uStack_a0 = DAT_1419df7b8;
+  uStack_9c = DAT_1419df7bc;
+  if ((1 << (local_5c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_68);
+  }
+  FUN_140041b80(local_68,&local_a8);
+  local_28 = local_68;
+  FUN_140e645a0(&local_a8,gml_Script_anon_464___InputColorSystem___InputColorSystem,param_1);
+  local_88 = local_a8;
+  uStack_84 = uStack_a4;
+  uStack_80 = uStack_a0;
+  uStack_7c = uStack_9c;
+  if ((1 << (local_4c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_58);
+  }
+  FUN_140041b80(local_58,&local_88);
+  if ((1 << ((byte)uStack_9c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_a8);
+  }
+  local_20 = local_58;
+  gml_Script_InputPlugInVerbSet(param_1,param_2,&local_98,3,&local_30);
+  local_38 = 0x1b;
+  if ((1 << ((byte)local_8c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_98);
+  }
+  local_98 = 0;
+  local_90 = 0;
+  local_8c = 5;
+  local_88 = _DAT_1419df930;
+  uStack_84 = uRam00000001419df934;
+  uStack_80 = uRam00000001419df938;
+  uStack_7c = uRam00000001419df93c;
+  if ((1 << (local_6c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_78);
+  }
+  FUN_140041b80(local_78,&local_88);
+  local_88 = (undefined4)DAT_1419df7b0;
+  uStack_84 = DAT_1419df7b0._4_4_;
+  uStack_80 = DAT_1419df7b8;
+  uStack_7c = DAT_1419df7bc;
+  if ((1 << (local_5c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_68);
+  }
+  FUN_140041b80(local_68,&local_88);
+  FUN_140e645a0(&local_a8,gml_Script___InputColorSystem,param_1);
+  local_88 = local_a8;
+  uStack_84 = uStack_a4;
+  uStack_80 = uStack_a0;
+  uStack_7c = uStack_9c;
+  if ((1 << (local_4c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_58);
+  }
+  FUN_140041b80(local_58,&local_88);
+  if ((1 << ((byte)uStack_9c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_a8);
+  }
+  gml_Script_InputPlugInVerbSet(param_1,param_2,&local_98,3,&local_30);
+  if ((1 << ((byte)local_8c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_98);
+  }
+  _eh_vector_destructor_iterator_(local_78,0x10,3,FUN_140041b30);
+  DAT_141dc7a50 = (undefined8 *)local_48;
+  return param_3;
+}
+

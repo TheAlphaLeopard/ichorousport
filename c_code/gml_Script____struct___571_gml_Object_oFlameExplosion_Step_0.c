@@ -1,0 +1,74 @@
+// gml_Script____struct___571_gml_Object_oFlameExplosion_Step_0 @ 0x140ad9df0
+
+void gml_Script____struct___571_gml_Object_oFlameExplosion_Step_0
+               (longlong *param_1,undefined8 param_2)
+
+{
+  undefined8 *puVar1;
+  undefined4 *puVar2;
+  undefined4 *puVar3;
+  undefined8 local_48;
+  undefined4 local_40;
+  undefined4 local_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined4 uStack_2c;
+  undefined8 local_28;
+  char *local_20;
+  undefined4 local_18;
+  
+  local_20 = "gml_Object_oFlameExplosion_Create_0";
+  local_28 = DAT_141dc7a50;
+  DAT_141dc7a50 = &local_28;
+  local_3c = 0xffffff;
+  local_48 = 0;
+  local_18 = 2;
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,DAT_141a0a848);
+  if ((1 << ((byte)*(undefined4 *)((longlong)puVar1 + 0xc) & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(puVar1);
+  }
+  *(undefined4 *)((longlong)puVar1 + 0xc) = 0;
+  *puVar1 = 0;
+  local_18 = 3;
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,DAT_141a1f0d0);
+  if ((1 << ((byte)*(undefined4 *)((longlong)puVar1 + 0xc) & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(puVar1);
+  }
+  *(undefined4 *)((longlong)puVar1 + 0xc) = 0;
+  *puVar1 = 0xc010000000000000;
+  local_18 = 5;
+  if ((1 << ((byte)local_3c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_48);
+  }
+  local_48 = 0;
+  local_40 = 0;
+  local_3c = 5;
+  puVar2 = (undefined4 *)(**(code **)(*param_1 + 0x10))(param_1,DAT_1419fe9b8);
+  FUN_140e609c0(param_1);
+  puVar3 = (undefined4 *)FUN_140e634e0(param_1,param_2,&local_48,0,DAT_1419ef5d8,0);
+  if (puVar3 != puVar2) {
+    local_38 = *puVar3;
+    uStack_34 = puVar3[1];
+    uStack_30 = puVar3[2];
+    uStack_2c = puVar3[3];
+    if ((1 << ((byte)puVar2[3] & 0x1f) & 0x46U) != 0) {
+      FUN_140041a50(puVar2);
+    }
+    FUN_140041b80(puVar2,&local_38);
+  }
+  FUN_140e60910(1);
+  local_18 = 6;
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,DAT_1419f1c68);
+  if ((1 << ((byte)*(undefined4 *)((longlong)puVar1 + 0xc) & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(puVar1);
+  }
+  *(undefined4 *)((longlong)puVar1 + 0xc) = 0;
+  *puVar1 = 0x4030000000000000;
+  if ((1 << ((byte)local_3c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_48);
+  }
+  DAT_141dc7a50 = (undefined8 *)local_28;
+  return;
+}
+

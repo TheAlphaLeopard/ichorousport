@@ -1,0 +1,148 @@
+// gml_Script_anon_341_gml_Object_oPickupIronSmall_Create_0 @ 0x140be4c60
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+gml_Script_anon_341_gml_Object_oPickupIronSmall_Create_0
+          (undefined8 param_1,undefined8 param_2,undefined8 *param_3)
+
+{
+  code *pcVar1;
+  ulonglong uVar2;
+  undefined4 uVar3;
+  ulonglong in_stack_fffffffffffffed0;
+  undefined8 local_128;
+  undefined4 uStack_120;
+  undefined4 uStack_11c;
+  undefined8 local_118;
+  undefined4 local_110;
+  undefined4 local_10c;
+  undefined4 local_108;
+  undefined4 uStack_104;
+  undefined4 uStack_100;
+  undefined4 uStack_fc;
+  undefined8 local_f8;
+  undefined4 local_ec;
+  undefined8 local_e8;
+  char *local_e0;
+  undefined4 local_d8;
+  undefined1 local_c8 [12];
+  byte local_bc;
+  undefined1 local_b8 [12];
+  byte local_ac;
+  undefined1 local_a8 [12];
+  byte local_9c;
+  undefined1 local_98 [12];
+  byte local_8c;
+  undefined1 local_88 [12];
+  byte local_7c;
+  undefined8 local_78;
+  undefined4 local_6c;
+  undefined1 *local_68;
+  undefined1 *local_60;
+  undefined1 *local_58;
+  undefined1 *local_50;
+  undefined1 *local_48;
+  undefined8 *local_40;
+  
+  local_e0 = "gml_Script_anon@342@gml_Object_oPickupIronMedium_Create_0";
+  local_e8 = DAT_141dc7a50;
+  DAT_141dc7a50 = &local_e8;
+  local_d8 = 0x15;
+  pcVar1 = FUN_140041b30;
+  _eh_vector_constructor_iterator_(local_c8,0x10,6,FUN_1400424d0,FUN_140041b30);
+  local_ec = 0xffffff;
+  local_f8 = 0;
+  local_10c = 0;
+  local_118 = 0;
+  *(undefined4 *)((longlong)param_3 + 0xc) = 5;
+  *param_3 = 0;
+  local_d8 = 0x17;
+  uStack_11c = 0xf;
+  local_128 = 0x1000000000000ee;
+  uVar2 = (ulonglong)pcVar1 & 0xffffffffffffff00;
+  FUN_140e87440(&local_128,DAT_1419ff9c8,0x80000000,&local_f8,uVar2,
+                in_stack_fffffffffffffed0 & 0xffffffffffffff00);
+  uVar3 = (undefined4)(uVar2 >> 0x20);
+  if ((1 << ((byte)uStack_11c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_128);
+  }
+  FUN_140162d40(&local_f8,2);
+  uStack_11c = 0xf;
+  local_128 = 0x1000000000000ee;
+  FUN_140e87930(&local_128,DAT_1419ff9c8,0x80000000,&local_f8);
+  if ((1 << ((byte)uStack_11c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_128);
+  }
+  local_d8 = 0x18;
+  if ((1 << ((byte)local_10c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_118);
+  }
+  local_118 = 0;
+  local_110 = 0;
+  local_10c = 5;
+  uStack_11c = 0xf;
+  local_128 = 0x10000020000001c;
+  local_108 = 0x1c;
+  uStack_104 = 0x1000002;
+  uStack_100 = uStack_120;
+  uStack_fc = 0xf;
+  if ((1 << (local_bc & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_c8);
+  }
+  FUN_140041b80(local_c8,&local_108);
+  local_68 = local_c8;
+  local_108 = _DAT_1419eca70;
+  uStack_104 = uRam00000001419eca74;
+  uStack_100 = uRam00000001419eca78;
+  uStack_fc = uRam00000001419eca7c;
+  if ((1 << (local_ac & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_b8);
+  }
+  FUN_140041b80(local_b8,&local_108);
+  local_60 = local_b8;
+  local_108 = _DAT_1419df7a0;
+  uStack_104 = uRam00000001419df7a4;
+  uStack_100 = uRam00000001419df7a8;
+  uStack_fc = uRam00000001419df7ac;
+  if ((1 << (local_9c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_a8);
+  }
+  FUN_140041b80(local_a8,&local_108);
+  local_58 = local_a8;
+  local_108 = (undefined4)DAT_1419df7b0;
+  uStack_104 = DAT_1419df7b0._4_4_;
+  uStack_100 = DAT_1419df7b8;
+  uStack_fc = DAT_1419df7bc;
+  if ((1 << (local_8c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_98);
+  }
+  FUN_140041b80(local_98,&local_108);
+  local_50 = local_98;
+  local_108 = (undefined4)DAT_1419df7b0;
+  uStack_104 = DAT_1419df7b0._4_4_;
+  uStack_100 = DAT_1419df7b8;
+  uStack_fc = DAT_1419df7bc;
+  if ((1 << (local_7c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(local_88);
+  }
+  FUN_140041b80(local_88,&local_108);
+  local_48 = local_88;
+  local_78 = FUN_140e794b0(0xcccccccd,0x3ff199999999999a);
+  if ((1 << ((byte)local_6c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_78);
+  }
+  local_6c = 0;
+  local_40 = &local_78;
+  FUN_140e634e0(param_1,param_2,&local_118,6,CONCAT44(uVar3,DAT_141a0a2e8),&local_68);
+  if ((1 << ((byte)local_10c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_118);
+  }
+  if ((1 << ((byte)local_ec & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_f8);
+  }
+  _eh_vector_destructor_iterator_(local_c8,0x10,6,FUN_140041b30);
+  DAT_141dc7a50 = (undefined8 *)local_e8;
+  return param_3;
+}
+

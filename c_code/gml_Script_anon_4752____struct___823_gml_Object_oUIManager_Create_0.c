@@ -1,0 +1,44 @@
+// gml_Script_anon_4752____struct___823_gml_Object_oUIManager_Create_0 @ 0x140e012b0
+
+undefined8 *
+gml_Script_anon_4752____struct___823_gml_Object_oUIManager_Create_0
+          (undefined8 param_1,undefined8 param_2,undefined8 *param_3)
+
+{
+  undefined8 local_58;
+  undefined4 local_4c;
+  undefined8 local_48;
+  undefined4 local_3c;
+  undefined8 local_38;
+  undefined4 local_2c;
+  undefined8 local_28;
+  char *local_20;
+  undefined4 local_18;
+  
+  local_20 = "gml_Script_anon@3567@gml_Object_oUIManager_Create_0";
+  local_28 = DAT_141dc7a50;
+  DAT_141dc7a50 = &local_28;
+  local_4c = 0xffffff;
+  local_58 = 0;
+  *(undefined4 *)((longlong)param_3 + 0xc) = 5;
+  *param_3 = 0;
+  local_18 = 0xce;
+  local_2c = 0;
+  local_38 = 0;
+  local_3c = 0xf;
+  local_48 = 0x100000000000147;
+  FUN_140e87440(&local_48,DAT_1419f8c48,0x80000000,&local_58,0,0);
+  if ((1 << ((byte)local_3c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_48);
+  }
+  FUN_140e87930(&local_58,DAT_141a09918,0x80000000,&local_38);
+  if ((1 << ((byte)local_2c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_38);
+  }
+  if ((1 << ((byte)local_4c & 0x1f) & 0x46U) != 0) {
+    FUN_140041a50(&local_58);
+  }
+  DAT_141dc7a50 = (undefined8 *)local_28;
+  return param_3;
+}
+

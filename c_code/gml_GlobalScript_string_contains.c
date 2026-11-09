@@ -1,0 +1,108 @@
+// gml_GlobalScript_string_contains @ 0x1405d6bc0
+
+undefined8 *
+gml_GlobalScript_string_contains(undefined8 param_1,undefined8 param_2,undefined8 *param_3)
+
+{
+  undefined8 local_1e8;
+  char *local_1e0;
+  undefined4 local_1d8;
+  undefined8 local_1d0;
+  undefined4 local_1c4;
+  undefined8 local_1c0;
+  undefined4 local_1b4;
+  undefined8 local_1b0;
+  undefined4 local_1a4;
+  undefined8 local_1a0;
+  undefined4 local_194;
+  undefined8 local_190;
+  undefined4 local_184;
+  undefined8 local_180;
+  undefined4 local_174;
+  undefined8 local_170;
+  undefined4 local_164;
+  undefined8 local_160;
+  undefined4 local_154;
+  undefined8 local_150;
+  undefined4 local_144;
+  undefined8 local_140;
+  undefined4 local_134;
+  undefined8 local_130;
+  undefined4 local_124;
+  undefined8 local_120;
+  undefined4 local_114;
+  undefined8 local_110;
+  undefined4 local_104;
+  undefined8 local_100;
+  undefined4 local_f4;
+  undefined8 local_f0;
+  undefined4 local_e4;
+  undefined8 local_e0;
+  undefined4 local_d4;
+  undefined8 local_d0;
+  undefined4 local_c4;
+  undefined8 local_c0;
+  undefined4 local_b4;
+  undefined8 local_b0;
+  undefined4 local_a4;
+  undefined8 local_a0;
+  undefined4 local_94;
+  undefined8 local_90;
+  undefined4 local_84;
+  undefined1 local_78 [112];
+  
+  local_1e0 = "gml_Script_steam_sync_achievements";
+  local_1e8 = DAT_141dc7a50;
+  DAT_141dc7a50 = &local_1e8;
+  local_1d8 = 0x25;
+  _eh_vector_constructor_iterator_(local_78,0x10,5,FUN_1400424d0,FUN_140041b30);
+  local_1c4 = 0xffffff;
+  local_1d0 = 0;
+  local_1b4 = 0xffffff;
+  local_1c0 = 0;
+  local_1a4 = 0xffffff;
+  local_1b0 = 0;
+  local_194 = 0xffffff;
+  local_1a0 = 0;
+  local_184 = 0;
+  local_190 = 0;
+  local_174 = 0;
+  local_180 = 0;
+  local_164 = 0;
+  local_170 = 0;
+  local_154 = 0;
+  local_160 = 0;
+  local_144 = 0;
+  local_150 = 0;
+  local_134 = 0;
+  local_140 = 0;
+  local_124 = 0;
+  local_130 = 0;
+  local_114 = 0;
+  local_120 = 0;
+  local_104 = 0;
+  local_110 = 0;
+  local_f4 = 0;
+  local_100 = 0;
+  local_e4 = 0;
+  local_f0 = 0;
+  local_d4 = 0;
+  local_e0 = 0;
+  local_c4 = 0;
+  local_d0 = 0;
+  local_b4 = 0;
+  local_c0 = 0;
+  local_a4 = 0;
+  local_b0 = 0;
+  local_94 = 0;
+  local_a0 = 0;
+  local_84 = 0;
+  local_90 = 0;
+  *(undefined4 *)((longlong)param_3 + 0xc) = 5;
+  *param_3 = 0;
+  local_1d8 = 0x26;
+  _eh_vector_destructor_iterator_(local_78,0x10,5,FUN_140041b30);
+  DAT_141dc7a50 = (undefined8 *)local_1e8;
+  return param_3;
+}
+
